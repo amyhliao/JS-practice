@@ -10,7 +10,13 @@ function totalCost(cost) {
     return "$" + cost.toFixed(2);
 }
 // purchase of phones while funds are still avail
+while (cost < available_funds) {
+    cost = cost + PHONE;
     // if there are funds to buy accessories
+    if (cost < SPENDING_LIMIT) {
+        cost = cost + ACCESSORY;
+    }
+}
 
 // need to incorporate sales tax
 
