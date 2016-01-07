@@ -6,4 +6,4 @@
 * You should set up some constants for the "tax rate," "phone price," "accessory price," and "spending threshold," as well as a variable for your "bank account balance.""
 * You should define functions for calculating the tax and for formatting the price with a "$" and rounding to two decimal places.
 
-**This is a practice taken from Kyle Simposon's "You Don't Know JS"
+**This is a practice taken from Kyle Simpson's "You Don't Know JS"
