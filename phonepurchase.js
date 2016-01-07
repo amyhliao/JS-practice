@@ -18,6 +18,14 @@ while (cost < available_funds) {
     }
 }
 
+function calculateTax(cost) {
+    return cost * SALES_TAX;
+}
+
 // need to incorporate sales tax
+cost = cost + calculateTax(cost);
+console.log(
+    "Your purchase: " + totalCost(cost)
+);
 
 // checks if the phone is affordable; enough money in avaialable funds
