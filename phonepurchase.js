@@ -29,3 +29,8 @@ console.log(
 );
 
 // checks if the phone is affordable; enough money in avaialable funds
+if (cost > available_funds) {
+    console.log(
+        "You do not have enough funds."
+    );
+}
