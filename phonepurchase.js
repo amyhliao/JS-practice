@@ -6,6 +6,9 @@ var ACCESSORY = 20;
 var available_funds = 1000.01;
 var cost = 0;
 
+function totalCost(cost) {
+    return "$" + cost.toFixed(2);
+}
 // purchase of phones while funds are still avail
     // if there are funds to buy accessories
 
